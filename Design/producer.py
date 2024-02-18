@@ -6,7 +6,7 @@ import json
 
 # Directly specify Google Cloud Pub/Sub configurations
 project_id = "lab1-413419"
-topic_id = "smartMeterTopicOutput"
+topic_id = "smartMeterTopic"
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(project_id, topic_id)
